@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
    printf("초를 입력하세요: ");
    scanf("%i", &sec);
    
-   printf("%i 초는 %i : %i : %i ", sec, sec/3600, (sec%3600)/60, ((sec%3600)%60) );
+   printf("%i 초는 %i : %i : %i ", sec, sec/3600, ((sec%3600)/60), (sec%60) );
    
 	return 0;
 }
