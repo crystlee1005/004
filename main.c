@@ -9,9 +9,11 @@ int main(int argc, char *argv[]) {
 	int a, b, c;
 	
 	x = 1;
-	y = 3;
+	a = 3;
+	z = 2;
 	b = 4;
 	c = 5;
+	
 	
 	y = a*x*x + b*x + c;
 	    m = ( x+y+z )/3;
