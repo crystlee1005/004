@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 	m = i/60;
 	s = i%60;
 	
-	printf(" the time is %m : %s \n", m, s);
+	printf(" the time is %i : %i \n", m, s);
     
 	 
 	return 0;
